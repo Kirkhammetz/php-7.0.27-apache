@@ -8,4 +8,3 @@ RUN docker-php-source delete
 COPY ./php.ini /usr/local/etc/php/
 
 RUN a2enmod rewrite
-RUN apachectl reload
