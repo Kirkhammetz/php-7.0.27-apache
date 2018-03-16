@@ -1,7 +1,7 @@
 version: '3'
 services:
   server:
-    image: kirkhammetz/php-7.0.27-apache
+    image: kirkhammetz/php-7.0.27-apache:latest
     volumes:
       - ./:/var/www/html
       - /Users/${USER}/Development/docker/apache/log:/var/log/apache2
